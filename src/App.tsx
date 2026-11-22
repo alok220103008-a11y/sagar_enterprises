@@ -1,0 +1,3 @@
+import {Route,Routes} from 'react-router-dom';import {Layout} from './ui';
+import {Home,About,Services,Projects,Amcpage as Amc,Support,Profile,Contact,Quote} from './pages';
+export default function App(){return <Layout><Routes><Route path="/" element={<Home/>}/><Route path="/about" element={<About/>}/><Route path="/services" element={<Services/>}/><Route path="/projects" element={<Projects/>}/><Route path="/amc" element={<Amc/>}/><Route path="/support" element={<Support/>}/><Route path="/profile" element={<Profile/>}/><Route path="/contact" element={<Contact/>}/><Route path="/quote" element={<Quote/>}/><Route path="*" element={<Home/>}/></Routes></Layout>}
