@@ -3,8 +3,8 @@
 export const C = {
   name: 'Sagar Enterprises',
   tagline: 'Intelligent Security. Reliable Protection.',
-  phone: '+91 9754029532',
-  whatsapp: '919754029532', // digits only, with country code
+  phone: '+91 9754029580',
+  whatsapp: '919754029580', // digits only, with country code
   email: 'info@sagarenterprises.example',
   address: 'Office address, City, State – PIN',
   founder: { name: '  Amar Singh Chaudhary', role: 'Founder', photo: '/Confident South Asian Business Portrait.png' }, // put the photo at public/founder.jpg
